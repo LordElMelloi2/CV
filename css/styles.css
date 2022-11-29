@@ -1,0 +1,131 @@
+/*https://colorhunt.co/palette/1818188758ff5cb8e4f2f2f2*/
+
+body{
+  text-align: center;
+  background-color: #F2F2F2;
+}
+
+/* table{
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+} */
+
+#personal-info .container-fluid{
+  padding: 3% 15% 12%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#educacion{
+  padding: 100px;
+}
+
+#skills{
+  padding: 100px;
+}
+
+#experiencia{
+  padding: 100px;
+}
+
+#contacto{
+  padding: 100px;
+}
+
+#footer{
+  background-color: #5CB8E4;
+  padding: 75px;
+}
+
+#footer p{
+  margin: 0;
+}
+
+.dark-card-header{
+  background-color: #181818;
+  color: #F2F2F2;
+}
+
+.education-card{
+  border-style: none;
+  /* opacity: 0.80; */
+}
+
+.profile-image{
+  border-radius: 50%;
+  max-width: 60%;
+}
+
+.profile-img-container{
+  text-align: center;
+}
+
+.black-section{
+  background-color: #181818;
+  color: #fff;
+}
+
+.colored-section{
+  background-color: #8758FF;
+  color: #000;
+}
+
+.skills-title{
+  padding: 3% 0;
+}
+
+.s-skill-table{
+  background-color: white;
+  color: black;
+  /* list-style-type: none; */
+  padding: 0;
+  border-radius: 1.5rem;
+}
+
+.s-skill-table table{
+  margin-bottom: 0;
+}
+
+/* .s-skill-table table thead > tr:first-child th{
+  background-color: #5CB8E4;
+} */
+
+.s-skill-table table tbody > tr:last-child{
+  border-bottom: none !important;
+  /* color: blue; */
+}
+
+.s-skill-table table tbody > tr:last-child > th{
+  border-bottom: none !important;
+  /* color: blue; */
+}
+
+.logo-img img{
+  max-width: 300px;
+}
+
+.hardskills{
+  margin-top: 5rem;
+}
+
+.accordion-content{
+  text-align: left;
+}
+
+.contact-links{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-links i{
+  margin: 0 3rem;
+}
+
+.contact-links i:hover{
+  color: #5CB8E4;
+}
+
+.contact-links li{
+  display: inline;
+}
