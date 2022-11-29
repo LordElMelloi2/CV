@@ -129,3 +129,24 @@ body{
 .contact-links i:hover{
   color: #5CB8E4;
 }
+
+/* Navbar Style */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 100;
+}
