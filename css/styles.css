@@ -30,6 +30,7 @@ body{
 
 #contacto{
   padding: 100px;
+  /* background-color: #5CB8E4; */
 }
 
 #footer{
@@ -67,6 +68,11 @@ body{
 
 .colored-section{
   background-color: #8758FF;
+  color: #000;
+}
+
+.colored-section-two{
+  background-color: #5CB8E4;
   color: #000;
 }
 
@@ -112,20 +118,14 @@ body{
   text-align: left;
 }
 
-.contact-links{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.contact-links p{
+  font-size: 1.35rem;
 }
 
 .contact-links i{
-  margin: 0 3rem;
+  margin: 0 0.65rem 1.5rem;
 }
 
 .contact-links i:hover{
   color: #5CB8E4;
-}
-
-.contact-links li{
-  display: inline;
 }
