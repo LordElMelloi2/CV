@@ -1,6 +1,7 @@
 /*https://colorhunt.co/palette/1818188758ff5cb8e4f2f2f2*/
 
 body{
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
   background-color: #F2F2F2;
 }
@@ -77,6 +78,7 @@ body{
 }
 
 .skills-title{
+  font-family: "Josefin Sans", "Ubuntu", sans-serif;
   padding: 3% 0;
 }
 
