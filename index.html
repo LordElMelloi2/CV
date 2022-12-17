@@ -22,7 +22,6 @@
       <!--Barra de navegacion-->
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <!-- <div class="container-fluid"> -->
         <a class="navbar-brand">resume</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,7 +48,6 @@
             </li>
           </ul>
         </div>
-        <!-- </div> -->
       </nav>
       <!--Informacion-->
       <div class="row">
@@ -59,9 +57,6 @@
               <h1 class="section-title">Isaac B. Lira R.</h1>
             </div>
             <div class="col-12 perfil">
-              <!-- <p>
-                Pasante de ingeniería en informática. Experiencia en la participación de diversos proyectos escolares, principalmente desarrollo de aplicaciones web, creados en diversas tecnologías.
-              </p> -->
               <p>
                 Estudiante de ingeniería en informática, en busca de practicas profesionales; con experiencia en la participación de diversos proyectos escolares, principalmente desarrollo de aplicaciones web, creados en diversas tecnologías. También capacitado en diversas tecnologías a través de cursos.
               </p>
@@ -87,7 +82,6 @@
           <div class="col-12 align-self-center">
             <div class="row justify-content-evenly row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-              <!-- <div class="col-md-12 col-lg-6"> -->
                 <div class="col">
                   <div class="card education-card">
                     <div class="card-header dark-card-header">
@@ -111,7 +105,6 @@
                     </ul>
                   </div>
                 </div>
-              <!-- </div> -->
 
             </div>
           </div>
@@ -128,14 +121,12 @@
         </div>
 
         <div class="col-12 align-self-center">
-          <!-- <div class="row justify-content-evenly"> -->
           <div class="row">
             <div class="col-md-8 s-skill-table">
               <table class="table table-striped">
                 <thead>
                   <tr>
                     <th colspan="2">Hardskill</th>
-                    <!-- <th>Dominio</th> -->
                   </tr>
                 </thead>
                 <tbody>
@@ -185,11 +176,6 @@
             <div class="col-md-4 logo-img align-self-center">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="JS_logo">
             </div>
-            <!-- Temporal, recordar ajustar margin despues -->
-            <!-- https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/2048px-HTML5_logo_black.svg.png -->
-            <!-- <p></p>
-            <p></p> -->
-            <!-- fin temp -->
           </div>
 
           <div class="row softskills">
@@ -201,7 +187,6 @@
                 <thead>
                   <tr>
                     <th colspan="2">Softskills</th>
-                    <!-- <th>Dominio</th> -->
                   </tr>
                 </thead>
                 <tbody>
@@ -241,7 +226,6 @@
             <h1 class="section-title">Experiencia</h1>
           </div>
 
-          <!-- Pruebas -->
           <div class="accordion" id="experienceAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -274,7 +258,6 @@
                   <ul>
                     <li>Diseño y desarrollo Front End</li>
                     <li>Generación de Queries para el CRUD con la base de datos</li>
-                    <!-- <li>Creación de Front End en React</li> -->
                   </ul>
                 </div>
               </div>
@@ -324,9 +307,7 @@
                 </div>
               </div>
             </div>
-            <!-- The Complete SQL Course 2022 - Learn by Doing - SQL Server -->
           </div>
-          <!-- Fin pruebas -->
         </div>
       </div>
     </section>
@@ -349,9 +330,7 @@
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
       <div id="liveToast" class="toast" role="alert">
       <div class="toast-header">
-        <!-- <img src="..." class="rounded me-2" alt="..."> -->
         <strong class="me-auto">E-mail copiado</strong>
-        <!-- <small>11 mins ago</small> -->
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
       <div class="toast-body">
@@ -366,20 +345,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 
-  <!-- pruebas con js
-  <script type="text/javascript">
-    window.onresize = function(){
-      console.log();
-      document.getElementsByClassName("section-title")[1].innerHTML = "Ancho: " + window.innerWidth;
-    }
-  </script> -->
-
   <!-- previniendo context menu -->
   <script type="text/javascript">
-    document.oncontextmenu = (event) => {
-      // if(event.defaultPrevented) return;
-      // event.preventDefault();
-    }
 
     document.getElementsByClassName("mail-link")[0].oncontextmenu = (e) => {
       let toastLive = document.getElementById('liveToast');
