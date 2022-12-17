@@ -4,43 +4,25 @@ body{
   font-family: "Fira Sans", sans-serif;
   text-align: center;
   background-color: #F2F2F2;
+  color: #000;
 }
 
-/* table{
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-} */
+a{
+  text-decoration: none;
+}
 
 #personal-info .container-fluid{
   padding: 3% 15% 12%;
-  text-align: left;
   vertical-align: middle;
 }
 
-#educacion{
+#educacion, #skills, #experiencia, #contacto{
   padding: 100px;
 }
 
-#skills{
-  padding: 100px;
-}
 
-#experiencia{
-  padding: 100px;
-}
-
-#contacto{
-  padding: 100px;
-  /* background-color: #5CB8E4; */
-}
-
-#footer{
-  background-color: #5CB8E4;
-  padding: 75px;
-}
-
-#footer p{
-  margin: 0;
+.accordion, .perfil{
+  text-align: left;
 }
 
 .dark-card-header{
@@ -50,7 +32,6 @@ body{
 
 .education-card{
   border-style: none;
-  /* opacity: 0.80; */
 }
 
 .profile-image{
@@ -58,34 +39,26 @@ body{
   max-width: 60%;
 }
 
-.profile-img-container{
-  text-align: center;
-}
-
 .black-section{
   background-color: #181818;
-  color: #fff;
+  color: #F2F2F2;
 }
 
 .colored-section{
   background-color: #8758FF;
-  color: #000;
 }
 
-.colored-section-two{
+.colored-section-blue{
   background-color: #5CB8E4;
-  color: #000;
 }
 
-.skills-title{
+.section-title{
   font-family: "Josefin Sans", "Ubuntu", sans-serif;
   padding: 3% 0;
 }
 
 .s-skill-table{
-  background-color: white;
-  color: black;
-  /* list-style-type: none; */
+  background-color: #f2f2f2;
   padding: 0;
   border-radius: 1.5rem;
 }
@@ -94,22 +67,11 @@ body{
   margin-bottom: 0;
 }
 
-/* .s-skill-table table thead > tr:first-child th{
-  background-color: #5CB8E4;
-} */
-
-.s-skill-table table tbody > tr:last-child{
+.s-skill-table table tbody > tr:last-child, .s-skill-table table tbody > tr:last-child > th{
   border-bottom: none !important;
-  /* color: blue; */
-}
-
-.s-skill-table table tbody > tr:last-child > th{
-  border-bottom: none !important;
-  /* color: blue; */
 }
 
 .logo-img img{
-  /* max-width: 300px; */
   max-width: 250px;
 }
 
@@ -117,12 +79,8 @@ body{
   margin-top: 5rem;
 }
 
-.accordion-content{
-  text-align: left;
-}
-
 .contact-links a{
-  color: #fff;
+  color: #f2f2f2;
 }
 
 .contact-links p{
