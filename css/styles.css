@@ -109,10 +109,11 @@ body{
 }
 
 .logo-img img{
-  max-width: 300px;
+  /* max-width: 300px; */
+  max-width: 250px;
 }
 
-.hardskills{
+.softskills{
   margin-top: 5rem;
 }
 
@@ -155,4 +156,32 @@ body{
   font-family: "Montserrat";
   font-size: 1.2rem;
   font-weight: 100;
+}
+
+@media screen and (max-width: 767px){
+  .logo-img{
+    padding: 2rem 0;
+  }
+
+  .softskills{
+    margin-top: 0;
+  }
+}
+
+/* Before 992 after 1085 */
+@media screen and (max-width: 1085px) and (min-width: 768px){
+
+  .profile-img-container{
+    padding: 3rem 12px;
+  }
+
+  .logo-img{
+    padding: 0;
+  }
+
+  .logo-img img{
+    max-width: 175px;
+    padding: 0 1rem;
+  }
+
 }

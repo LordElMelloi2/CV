@@ -192,8 +192,8 @@
             <!-- fin temp -->
           </div>
 
-          <div class="row hardskills">
-            <div class="col-md-4 logo-img">
+          <div class="row softskills">
+            <div class="col-md-4 logo-img align-self-center">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/2048px-HTML5_logo_black.svg.png" alt="html5_logo">
             </div>
             <div class="col-md-8 align-self-center s-skill-table">
@@ -293,6 +293,9 @@
                     <li>Creación de aplicaciones en Node.js</li>
                     <li>Creación de API REST</li>
                     <li>Creación de Front End en React</li>
+                    <li>
+                      <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-33905fb8-efff-46fd-b318-2b5013dd9241.jpg?v=1648916828000">Certificado</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -314,6 +317,9 @@
                     <li>Generar Correlated Subqueries</li>
                     <li>Crear CTE</li>
                     <li>Escribir JOINS complejos</li>
+                    <li>
+                      <a target="_blank" href="https://udemy-certificate.s3.amazonaws.com/image/UC-11113bcf-442d-41df-a7ce-214a65fa8b85.jpg?v=1665616749000">Certificado</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -331,9 +337,7 @@
         <div class="row">
           <div class="col-md-12 contact-links">
               <span>
-                <a href="mailto:ilirar1300@alumno.ipn.mx"><i class="fa-regular fa-envelope fa-2x"></i></a>
-                <!-- <a href="tel:"><i class="fa-solid fa-phone fa-2x"></i></a> -->
-                <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a class="mail-link" href="mailto:ilirar1300@alumno.ipn.mx"><i class="fa-regular fa-envelope fa-2x"></i></a>
                 <a href="https://www.instagram.com/akinokami" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
               </span>
               <p>Made by Isaac B. Lira R.</p>
@@ -342,10 +346,52 @@
       </div>
     </section>
 
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert">
+      <div class="toast-header">
+        <!-- <img src="..." class="rounded me-2" alt="..."> -->
+        <strong class="me-auto">E-mail copiado</strong>
+        <!-- <small>11 mins ago</small> -->
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        El e-mail a sido copiado.
+      </div>
+    </div>
+  </div>
+
   <!--Javascript de bootstrap-->
   <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+  <!-- pruebas con js
+  <script type="text/javascript">
+    window.onresize = function(){
+      console.log();
+      document.getElementsByClassName("skills-title")[1].innerHTML = "Ancho: " + window.innerWidth;
+    }
+  </script> -->
+
+  <!-- previniendo context menu -->
+  <script type="text/javascript">
+    document.oncontextmenu = (event) => {
+      // if(event.defaultPrevented) return;
+      // event.preventDefault();
+    }
+
+    document.getElementsByClassName("mail-link")[0].oncontextmenu = (e) => {
+      let toastLive = document.getElementById('liveToast');
+      let toast = new bootstrap.Toast(toastLive);
+
+      navigator.clipboard.writeText("ilirar1300@alumno.ipn.mx").then(() => {
+        toast.show();
+      },() => {
+      });
+
+      e.preventDefault();
+    }
+  </script>
   </body>
 </html>
